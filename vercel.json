@@ -3,5 +3,10 @@
   "projects": [
     { "src": "AI_data_Extraction/apps/web", "use": "@vercel/next" },
     { "src": "AI_data_Extraction/apps/api" }
-  ]
+  ],
+  "functions": {
+    "AI_data_Extraction/apps/api/src/server.ts": {
+      "runtime": "@vercel/node@20.x"
+    }
+  }
 }
