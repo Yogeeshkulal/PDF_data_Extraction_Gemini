@@ -10,6 +10,9 @@
     "lint": "eslint . --ext .ts",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
+  "engines": {
+    "node": "20.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
