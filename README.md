@@ -1,7 +1,4 @@
-Got it ✅
-Here’s a **clean README.md** for your repo [`PDF_data_Extraction_Gemini`](https://github.com/Yogeeshkulal/PDF_data_Extraction_Gemini). It explains setup, environment variables, local dev, and Vercel deployment.
 
----
 
 ```markdown
 # 📄 PDF Data Extraction Dashboard
