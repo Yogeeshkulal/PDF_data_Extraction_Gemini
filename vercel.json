@@ -19,11 +19,6 @@
       ]
     }
   ],
-  "functions": {
-    "api/src/server.ts": {
-      "runtime": "nodejs20.x"
-    }
-  },
   "crons": [
     {
       "path": "/api/cron",
