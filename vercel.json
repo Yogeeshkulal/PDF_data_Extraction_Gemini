@@ -2,10 +2,5 @@
   "version": 2,
   "projects": [
     { "src": "AI_data_Extraction/apps/web", "use": "@vercel/next" }
-  ],
-  "functions": {
-    "AI_data_Extraction/apps/api/src/server.ts": {
-      "runtime": "@vercel/node@20.x"
-    }
-  }
+  ]
 }
