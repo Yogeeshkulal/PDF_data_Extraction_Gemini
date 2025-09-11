@@ -21,7 +21,7 @@
   ],
   "functions": {
     "api/src/server.ts": {
-      "runtime": "nodejs@20.x"
+      "runtime": "nodejs20.x"
     }
   },
   "crons": [
@@ -31,4 +31,3 @@
     }
   ]
 }
-
