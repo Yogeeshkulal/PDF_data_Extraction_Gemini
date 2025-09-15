@@ -1,6 +1,8 @@
 import { Router, Request, Response } from 'express';
 import multer from 'multer';
 import pdfParse from 'pdf-parse';
+// @ts-ignore
+import pdf from "pdf-parse";
 
 const router = Router();
 
@@ -32,3 +34,4 @@ router.post('/parse-pdf', upload.single('file'), async (req: Request, res: Respo
 });
 
 export default router;
+
