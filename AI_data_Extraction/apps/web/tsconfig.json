@@ -1,15 +1,11 @@
 {
-  "extends": "next/tsconfig.json",
+  "extends": "@tsconfig/next/tsconfig.json",
   "compilerOptions": {
     "plugins": [{ "name": "next" }],
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
-    "strict": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
     "noEmit": true
   },
   "include": [
