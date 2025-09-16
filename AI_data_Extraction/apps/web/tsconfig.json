@@ -1,9 +1,7 @@
 {
-  "extends": "next",
+  "extends": "next/tsconfig.json",
   "compilerOptions": {
-    "plugins": [
-      { "name": "next" }
-    ],
+    "plugins": [{ "name": "next" }],
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
